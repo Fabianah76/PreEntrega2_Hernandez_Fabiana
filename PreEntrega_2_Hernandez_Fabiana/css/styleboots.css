@@ -75,21 +75,51 @@ main {
     
 .nosotrosgrid{
     display: grid;    
-    grid-template-columns: auto auto;
-    grid-template-rows: 20% 60% 20%;
-    justify-content: space-evenly;
-    padding-left: 3.5rem;
+    grid-template-columns: 48% 48% ;
+    grid-template-rows: auto auto auto;
+    justify-content:center;
+    grid-template-rows: 20% 65% 15%;
+    grid-template-columns: 60% 40%;
     width: 90%;
     height: 90%;
     background-color: rgb(189, 163, 214);
     margin: 0 auto;
-    border: 1px solid black;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    justify-content: space-between;
 
 }
 
-.cajanos {
+.cajanos1 {
+    grid-column: 1/4;
     background-color: bisque;
     text-align: center;
-    border: 1px solid black;
+    margin-bottom: 8px;
+    
+    
+}
+.cajanos2 {
+    grid-column: 1/2;
+    background-color: bisque;
+    text-align: center;
+    margin-right: 8px;
+    padding-top: 20px;
+        
+}
+.cajanos3 {
+    background-color: bisque;
+    text-align: center;
+    justify-content: center;
+    padding-top: 20px;
+    
+}
+.cajanos4 {
+    grid-column: 1/4;
+    background-color: bisque;
+    text-align: center;
+    margin-top: 8px;
+        
 }
         
