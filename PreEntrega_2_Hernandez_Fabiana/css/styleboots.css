@@ -1,0 +1,95 @@
+* { margin: 0;
+padding: 0;}
+
+body {
+    height: 100vh;
+  
+  }
+
+header{
+    height: 20vh;
+}
+main{
+    height: 60vh;
+}
+footer{
+    height: 20vh;
+}
+
+li{ list-style-type: none;}
+
+img{ 
+    width: 110px;
+    height: 110px;
+}
+main {   
+    width: 100%;
+    height: 60%;
+    background-image: url(../assets/images/Ovillos\ de\ lana.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    padding-top: 2rem;
+    
+}
+.tiendagrid{
+    display: grid;    
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 80% 20%;
+    justify-content: space-evenly;
+    padding-left: 3.5rem;
+    width: 90%;
+    height: 90%;
+    background-color: rgb(189, 163, 214);
+    margin: 0 auto;
+    
+}
+.caja { 
+    height: 250px;
+    width: 200px;
+    background-color: bisque;
+    margin: 10px;
+    display: flex;
+}
+.imagentienda{ 
+    width: 95%;
+    height:95%;
+    background-color: antiquewhite;
+    justify-content: center;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin: 2%;
+}
+.cajaprecio{ 
+    height: 50px;
+    width: 200px;
+    margin: 10px;
+    background-color: bisque;
+    text-align: center;
+    padding-top: 4px;
+}
+.precios{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+    
+.nosotrosgrid{
+    display: grid;    
+    grid-template-columns: auto auto;
+    grid-template-rows: 20% 60% 20%;
+    justify-content: space-evenly;
+    padding-left: 3.5rem;
+    width: 90%;
+    height: 90%;
+    background-color: rgb(189, 163, 214);
+    margin: 0 auto;
+    border: 1px solid black;
+
+}
+
+.cajanos {
+    background-color: bisque;
+    text-align: center;
+    border: 1px solid black;
+}
+        
